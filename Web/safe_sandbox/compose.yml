@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: py_sandbox
+    image: py_sandbox
+    environment:
+      - GZCTF_FLAG="flag{test}"
+    ports:
+      - 7787:5000
