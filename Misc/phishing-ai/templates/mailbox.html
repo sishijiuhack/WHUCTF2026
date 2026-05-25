@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>
+{% if box=='inbox' %}收件箱{% elif box=='sent' %}已发邮件{% elif box=='drafts' %}草稿{% elif box=='trash' %}已删除{% else %}垃圾邮件{% endif %}
+</h2>
+<table>
+  <thead>
+    <tr><th>发件人</th><th>收件人</th><th>主题</th><th>时间</th><th>操作</th></tr>
+  </thead>
+  <tbody>
+    {% for m in mails %}
+    <tr>
+      <td>{{ m.sender if m.sender else me }}</td>
+      <td>{{ m.recipient }}</td>
+      <td><a href="{{ url_for('view_mail', box=box, mail_id=m.id) }}">{{ m.subject }}</a></td>
+      <td class="ts" data-ts="{{ m.timestamp }}">{{ m.timestamp }}</td>
+      <td class="actions">
+        <a class="btn btn-alt" href="{{ url_for('view_mail', box=box, mail_id=m.id) }}">查看</a>
+        {% if box in ['inbox','spam','trash'] %}
+          <form method="POST" action="{{ url_for('move_mail', mail_id=m.id, target='inbox') }}"><button class="btn btn-alt" type="submit">收件箱</button></form>
+          <form method="POST" action="{{ url_for('move_mail', mail_id=m.id, target='spam') }}"><button class="btn btn-alt" type="submit">垃圾</button></form>
+          <form method="POST" action="{{ url_for('move_mail', mail_id=m.id, target='trash') }}"><button class="btn btn-alt" type="submit">删除</button></form>
+        {% endif %}
+      </td>
+    </tr>
+    {% else %}
+    <tr><td colspan="5">暂无邮件</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<script>
+document.querySelectorAll('.ts').forEach(function(el){
+  el.textContent=new Date(parseInt(el.dataset.ts)*1000).toLocaleString('zh-CN');
+});
+</script>
+{% endblock %}

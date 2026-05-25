@@ -1,0 +1,7 @@
+articles/
+__pycache__/
+*.pyc
+.git
+.env
+README.md
+.DS_Store
