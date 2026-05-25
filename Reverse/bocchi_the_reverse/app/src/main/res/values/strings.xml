@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bocchi_the_reverse</string>
+    <string name="open_homepage">Open Homepage</string>
+    <string name="check_flag_default">flag: null</string>
+</resources>
