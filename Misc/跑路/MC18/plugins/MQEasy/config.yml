@@ -1,0 +1,13 @@
+#MQEasy Config File
+#Configuration Guide: https://github.com/jingwenMC/MQEasy/wiki/Configuration
+version: 1a
+
+broker:
+  enable: false
+  ipport: 127.0.0.1:61616
+
+remote:
+  ipport: 127.0.0.1:61616
+
+id: server1
+debug: false

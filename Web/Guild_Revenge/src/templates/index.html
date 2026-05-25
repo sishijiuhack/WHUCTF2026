@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>流石会馆</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <main class="page">
+        <section class="card">
+            <h1>🕯️愿逝者安息</h1>
+            <p class="hint">永远怀念逝去的妖精…… <br /> 请输入 JSON 数组，提交后会由后端逐项校验。</p>
+            <form id="validate-form" class="form">
+                <textarea id="content" name="content" class="input input-area"
+                    placeholder='例如：["apple", "banana", "orange"]' required></textarea>
+                <button type="submit" class="button">验证</button>
+            </form>
+            <p id="result" class="result" aria-live="polite"></p>
+            <div id="result-list" class="result-list" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <script>
+        const form = document.getElementById("validate-form");
+        const input = document.getElementById("content");
+        const result = document.getElementById("result");
+        const resultList = document.getElementById("result-list");
+
+        form.addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            result.textContent = "校验中...";
+            result.className = "result";
+            resultList.innerHTML = "";
+
+            let content;
+            try {
+                content = JSON.parse(input.value);
+            } catch (error) {
+                result.textContent = "输入格式错误，请输入合法的 JSON 数组。";
+                result.className = "result error";
+                return;
+            }
+
+            if (!Array.isArray(content)) {
+                result.textContent = "输入格式错误，请输入 JSON 数组。";
+                result.className = "result error";
+                return;
+            }
+
+            try {
+                const response = await fetch("/validate", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ content }),
+                });
+
+                const data = await response.json();
+                result.textContent = data.message;
+                result.className = data.valid ? "result success" : "result error";
+
+                resultList.innerHTML = data.results
+                    .map(
+                        (item, index) => `
+                            <div class="result-item ${item.valid ? "success" : "error"}">
+                                <span class="result-index">#${index + 1}</span>
+                                <span class="result-value">${JSON.stringify(item.value)}</span>
+                                <span class="result-message">${item.message}</span>
+                            </div>
+                        `
+                    )
+                    .join("");
+            } catch (error) {
+                result.textContent = "请求失败，请稍后重试。";
+                result.className = "result error";
+            }
+        });
+    </script>
+</body>
+
+</html>

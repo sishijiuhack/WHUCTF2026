@@ -1,0 +1,817 @@
+21:03:24 [信息] Using standard Java JCE cipher.
+21:03:24 [信息] Using standard Java compressor.
+21:03:24 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+21:03:24 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+21:03:24 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+21:03:24 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:03:24 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:03:24 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:03:24 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:03:24 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:03:24 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:03:24 [信息] Attempting to update plugin from null to ModuleVersion(build=2062, git=aa5c89d)
+21:03:24 [信息] Attempting to Jenkins download module cmd_alert v2062
+21:03:25 [信息] Download complete
+21:03:25 [信息] Attempting to update plugin from null to ModuleVersion(build=2062, git=aa5c89d)
+21:03:25 [信息] Attempting to Jenkins download module cmd_find v2062
+21:03:26 [信息] Download complete
+21:03:26 [信息] Attempting to update plugin from null to ModuleVersion(build=2062, git=aa5c89d)
+21:03:26 [信息] Attempting to Jenkins download module cmd_list v2062
+21:03:26 [信息] Download complete
+21:03:26 [信息] Attempting to update plugin from null to ModuleVersion(build=2062, git=aa5c89d)
+21:03:26 [信息] Attempting to Jenkins download module cmd_send v2062
+21:03:28 [信息] Download complete
+21:03:28 [信息] Attempting to update plugin from null to ModuleVersion(build=2062, git=aa5c89d)
+21:03:28 [信息] Attempting to Jenkins download module cmd_server v2062
+21:03:28 [信息] Download complete
+21:03:28 [信息] Attempting to update plugin from null to ModuleVersion(build=2062, git=aa5c89d)
+21:03:28 [信息] Attempting to Jenkins download module reconnect_yaml v2062
+21:03:28 [信息] Download complete
+21:03:29 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [警告] Forced host server pvp is not defined
+21:03:29 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:03:29 [信息] Listening on /0.0.0.0:25577
+21:07:44 [信息] Using standard Java JCE cipher.
+21:07:44 [信息] Using standard Java compressor.
+21:07:44 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+21:07:44 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+21:07:44 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+21:07:44 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:07:44 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:07:44 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:07:44 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:07:44 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:07:44 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:07:44 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:07:44 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:07:44 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+21:07:44 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:07:44 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:07:44 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:07:44 [信息] [MQEasy] Loading Configuration...
+21:07:44 [信息] [MQEasy] Connecting to broker service...
+21:07:44 [严重] javax.jms.JMSException: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused
+
+21:07:44 [严重] 	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:38)
+
+21:07:44 [严重] 	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:374)
+
+21:07:44 [严重] 	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:304)
+
+21:07:44 [严重] 	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:244)
+
+21:07:44 [严重] 	at top.jingwenmc.mqeasy.common.messaging.MQEasyMessageListener.<init>(MQEasyMessageListener.java:24)
+
+21:07:44 [严重] 	at top.jingwenmc.mqeasy.common.messaging.MQEasyMessenger.initListener(MQEasyMessenger.java:22)
+
+21:07:44 [严重] 	at top.jingwenmc.mqeasy.bungee.MQEasyBungee.onLoad(MQEasyBungee.java:61)
+
+21:07:44 [严重] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:363)
+
+21:07:44 [严重] 	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+
+21:07:44 [严重] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+
+21:07:44 [严重] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+
+21:07:44 [严重] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+
+21:07:44 [严重] Caused by: java.net.ConnectException: Connection refused
+
+21:07:44 [严重] 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+
+21:07:44 [严重] 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:684)
+
+21:07:44 [严重] 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+
+21:07:44 [严重] 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+
+21:07:44 [严重] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+
+21:07:44 [严重] 	at java.base/java.net.Socket.connect(Socket.java:633)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:525)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:488)
+
+21:07:44 [严重] 	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:169)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64)
+
+21:07:44 [严重] 	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64)
+
+21:07:44 [严重] 	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:354)
+
+21:07:44 [严重] 	... 10 more
+
+21:07:44 [严重] ===============[MQEasy-Init-Error]===============
+
+21:07:44 [严重] Error connecting broker.
+
+21:07:44 [严重] Please check your connection or your configuration.
+
+21:07:44 [严重] Plugin(s) may not work properly.
+
+21:07:44 [严重] Try to reconnect in 15 seconds...
+
+21:07:44 [严重] ===============[MQEasy-Init-Error]===============
+
+21:08:09 [信息] Using standard Java JCE cipher.
+21:08:09 [信息] Using standard Java compressor.
+21:08:09 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+21:08:09 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+21:08:09 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+21:08:09 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:08:09 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:08:09 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:08:09 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:08:09 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:08:09 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:08:09 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:09 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:09 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+21:08:09 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:09 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:09 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:09 [信息] [MQEasy] Loading Configuration...
+21:08:10 [信息] [MQEasy] Launching broker service...
+21:08:10 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+21:08:10 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+21:08:10 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-61836-1776085690240-0:1) is starting
+21:08:10 [信息] Listening for connections at: tcp://localhost:61616
+21:08:10 [信息] Connector tcp://localhost:61616 started
+21:08:10 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-61836-1776085690240-0:1) started
+21:08:10 [信息] For help or more information please see: http://activemq.apache.org
+21:08:10 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 35743 mb of usable space. - resetting to maximum available disk space: 35743 mb
+21:08:10 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 35743 mb of usable space. - resetting to maximum available disk space: 35743 mb
+21:08:10 [信息] [MQEasy] Connecting to broker service...
+21:08:10 [信息] [MQEasy] Listener is now OK.
+21:08:10 [信息] [MQEasy] Finalizing...
+21:08:10 [信息] [MQEasy] Load Complete!
+21:08:10 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+21:08:10 [信息] [MQEasy] MQEasy Load Complete!
+21:08:10 [信息] [MQEasy] Version:2.0.1
+21:08:10 [信息] [MQEasy] Authors:jingwenMC
+21:08:10 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+21:08:10 [信息] [MQEasy] Running on BungeeCord
+21:08:10 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+21:08:10 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+21:08:10 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [警告] Forced host server pvp is not defined
+21:08:10 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+21:08:10 [信息] [CommandBridge] §a[CommandBridge]Using PluginMessage mode - Listen Only.
+21:08:10 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+21:08:10 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+21:08:10 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+21:08:10 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+21:08:10 [信息] Listening on /0.0.0.0:25577
+21:12:23 [信息] §c[BC]Error: Wrong Command Usage.
+21:12:23 [信息] §c[BC]Error: Not Supported
+21:12:32 [信息] Closing listener [id: 0xa9d55176, L:/[0:0:0:0:0:0:0:0]:25577]
+21:12:32 [信息] Closing pending connections
+21:12:32 [信息] Disconnecting 0 connections
+21:12:32 [信息] Saving reconnect locations
+21:12:32 [信息] Disabling plugins
+21:12:32 [信息] [MQEasy] Disabling Plugin...
+21:12:32 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-61836-1776085690240-0:1) is shutting down
+21:12:32 [信息] Connector tcp://localhost:61616 stopped
+21:12:32 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+21:12:32 [信息] Stopping async queue tasks
+21:12:32 [信息] Stopping async topic tasks
+21:12:32 [信息] Stopped KahaDB
+21:12:32 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-61836-1776085690240-0:1) uptime 4 minutes
+21:12:32 [信息] [MQEasy] Disable Complete!
+21:12:32 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-61836-1776085690240-0:1) is shutdown
+21:12:32 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+21:12:32 [信息] [MQEasy] MQEasy Disable Complete!
+21:12:32 [信息] [MQEasy] Version:2.0.1
+21:12:32 [信息] [MQEasy] Authors:jingwenMC
+21:12:32 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+21:12:32 [信息] [MQEasy] Running on BungeeCord
+21:12:32 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+21:12:32 [信息] [CommandBridge] §a[CommandBridge]Disable PluginMessage mode.
+21:12:32 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+21:12:32 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+21:12:32 [信息] Closing IO threads
+22:13:55 [信息] Using standard Java JCE cipher.
+22:13:55 [信息] Using standard Java compressor.
+22:13:55 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+22:13:55 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+22:13:55 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+22:13:55 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:13:55 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:13:55 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:13:55 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:13:55 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:13:55 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:13:56 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+22:13:56 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] [MQEasy] Loading Configuration...
+22:13:56 [信息] [MQEasy] Launching broker service...
+22:13:56 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+22:13:56 [信息] KahaDB is version 7
+22:13:56 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+22:13:56 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-60084-1776089636284-0:1) is starting
+22:13:56 [信息] Listening for connections at: tcp://localhost:61616
+22:13:56 [信息] Connector tcp://localhost:61616 started
+22:13:56 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-60084-1776089636284-0:1) started
+22:13:56 [信息] For help or more information please see: http://activemq.apache.org
+22:13:56 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 33545 mb of usable space. - resetting to maximum available disk space: 33545 mb
+22:13:56 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 33545 mb of usable space. - resetting to maximum available disk space: 33545 mb
+22:13:56 [信息] [MQEasy] Connecting to broker service...
+22:13:56 [信息] [MQEasy] Listener is now OK.
+22:13:56 [信息] [MQEasy] Finalizing...
+22:13:56 [信息] [MQEasy] Load Complete!
+22:13:56 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:13:56 [信息] [MQEasy] MQEasy Load Complete!
+22:13:56 [信息] [MQEasy] Version:2.0.1
+22:13:56 [信息] [MQEasy] Authors:jingwenMC
+22:13:56 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:13:56 [信息] [MQEasy] Running on BungeeCord
+22:13:56 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:13:56 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+22:13:56 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [警告] Forced host server pvp is not defined
+22:13:56 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+22:13:56 [信息] [CommandBridge] §a[CommandBridge]Using PluginMessage mode - Listen Only.
+22:13:56 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+22:13:56 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+22:13:56 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+22:13:56 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:13:56 [信息] Listening on /0.0.0.0:25577
+22:44:04 [信息] Closing listener [id: 0x0c436958, L:/[0:0:0:0:0:0:0:0]:25577]
+22:44:04 [信息] Closing pending connections
+22:44:04 [信息] Disconnecting 0 connections
+22:44:04 [信息] Saving reconnect locations
+22:44:04 [信息] Disabling plugins
+22:44:04 [信息] [MQEasy] Disabling Plugin...
+22:44:04 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-60084-1776089636284-0:1) is shutting down
+22:44:04 [信息] Connector tcp://localhost:61616 stopped
+22:44:04 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+22:44:04 [信息] Stopping async queue tasks
+22:44:04 [信息] Stopping async topic tasks
+22:44:04 [信息] Stopped KahaDB
+22:44:04 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-60084-1776089636284-0:1) uptime 30 minutes
+22:44:04 [信息] [MQEasy] Disable Complete!
+22:44:04 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-60084-1776089636284-0:1) is shutdown
+22:44:04 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:44:04 [信息] [MQEasy] MQEasy Disable Complete!
+22:44:04 [信息] [MQEasy] Version:2.0.1
+22:44:04 [信息] [MQEasy] Authors:jingwenMC
+22:44:04 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:44:04 [信息] [MQEasy] Running on BungeeCord
+22:44:04 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:44:04 [信息] [CommandBridge] §a[CommandBridge]Disable PluginMessage mode.
+22:44:04 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+22:44:04 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+22:44:04 [信息] Closing IO threads
+22:44:26 [信息] Using standard Java JCE cipher.
+22:44:26 [信息] Using standard Java compressor.
+22:44:26 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+22:44:26 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+22:44:26 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+22:44:26 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:44:26 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:44:26 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:44:26 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:44:26 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:44:26 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:44:26 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:26 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:26 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+22:44:26 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:26 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:26 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:26 [信息] [MQEasy] Loading Configuration...
+22:44:26 [信息] [MQEasy] Launching broker service...
+22:44:26 [警告] Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 128 mb - resetting to 70% of maximum available: 89
+22:44:27 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+22:44:27 [信息] KahaDB is version 7
+22:44:27 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+22:44:27 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-50016-1776091467096-0:1) is starting
+22:44:27 [信息] Listening for connections at: tcp://localhost:61616
+22:44:27 [信息] Connector tcp://localhost:61616 started
+22:44:27 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-50016-1776091467096-0:1) started
+22:44:27 [信息] For help or more information please see: http://activemq.apache.org
+22:44:27 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 33420 mb of usable space. - resetting to maximum available disk space: 33420 mb
+22:44:27 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 33420 mb of usable space. - resetting to maximum available disk space: 33420 mb
+22:44:27 [信息] [MQEasy] Connecting to broker service...
+22:44:27 [信息] [MQEasy] Listener is now OK.
+22:44:27 [信息] [MQEasy] Finalizing...
+22:44:27 [信息] [MQEasy] Load Complete!
+22:44:27 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:44:27 [信息] [MQEasy] MQEasy Load Complete!
+22:44:27 [信息] [MQEasy] Version:2.0.1
+22:44:27 [信息] [MQEasy] Authors:jingwenMC
+22:44:27 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:44:27 [信息] [MQEasy] Running on BungeeCord
+22:44:27 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:44:27 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+22:44:27 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [警告] Forced host server pvp is not defined
+22:44:27 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+22:44:27 [信息] [CommandBridge] §a[CommandBridge]Using PluginMessage mode - Listen Only.
+22:44:27 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+22:44:27 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+22:44:27 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+22:44:27 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:44:27 [信息] Listening on /0.0.0.0:25577
+22:52:59 [信息] Closing listener [id: 0x4fbfb67b, L:/[0:0:0:0:0:0:0:0]:25577]
+22:52:59 [信息] Closing pending connections
+22:52:59 [信息] Disconnecting 0 connections
+22:53:00 [信息] Saving reconnect locations
+22:53:00 [信息] Disabling plugins
+22:53:00 [信息] [MQEasy] Disabling Plugin...
+22:53:00 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-50016-1776091467096-0:1) is shutting down
+22:53:00 [信息] Connector tcp://localhost:61616 stopped
+22:53:00 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+22:53:00 [信息] Stopping async queue tasks
+22:53:00 [信息] Stopping async topic tasks
+22:53:00 [信息] Stopped KahaDB
+22:53:00 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-50016-1776091467096-0:1) uptime 8 minutes
+22:53:00 [信息] [MQEasy] Disable Complete!
+22:53:00 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-50016-1776091467096-0:1) is shutdown
+22:53:00 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:53:00 [信息] [MQEasy] MQEasy Disable Complete!
+22:53:00 [信息] [MQEasy] Version:2.0.1
+22:53:00 [信息] [MQEasy] Authors:jingwenMC
+22:53:00 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:53:00 [信息] [MQEasy] Running on BungeeCord
+22:53:00 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:53:00 [信息] [CommandBridge] §a[CommandBridge]Disable PluginMessage mode.
+22:53:00 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+22:53:00 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+22:53:00 [信息] Closing IO threads
+22:53:04 [信息] Using standard Java JCE cipher.
+22:53:04 [信息] Using standard Java compressor.
+22:53:04 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+22:53:04 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+22:53:04 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+22:53:04 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:53:04 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:53:04 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:53:04 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:53:04 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:53:04 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:53:04 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:04 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:04 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+22:53:04 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:04 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:04 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:04 [信息] [MQEasy] Loading Configuration...
+22:53:05 [信息] [MQEasy] Launching broker service...
+22:53:05 [警告] Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 128 mb - resetting to 70% of maximum available: 89
+22:53:05 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+22:53:05 [信息] KahaDB is version 7
+22:53:05 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+22:53:05 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-51870-1776091985237-0:1) is starting
+22:53:05 [信息] Listening for connections at: tcp://localhost:61616
+22:53:05 [信息] Connector tcp://localhost:61616 started
+22:53:05 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-51870-1776091985237-0:1) started
+22:53:05 [信息] For help or more information please see: http://activemq.apache.org
+22:53:05 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 32231 mb of usable space. - resetting to maximum available disk space: 32231 mb
+22:53:05 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 32231 mb of usable space. - resetting to maximum available disk space: 32231 mb
+22:53:05 [信息] [MQEasy] Connecting to broker service...
+22:53:05 [信息] [MQEasy] Listener is now OK.
+22:53:05 [信息] [MQEasy] Finalizing...
+22:53:05 [信息] [MQEasy] Load Complete!
+22:53:05 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:53:05 [信息] [MQEasy] MQEasy Load Complete!
+22:53:05 [信息] [MQEasy] Version:2.0.1
+22:53:05 [信息] [MQEasy] Authors:jingwenMC
+22:53:05 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:53:05 [信息] [MQEasy] Running on BungeeCord
+22:53:05 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:53:05 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+22:53:05 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [警告] Forced host server pvp is not defined
+22:53:05 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+22:53:05 [信息] [CommandBridge] §a[CommandBridge]Using PluginMessage mode - Listen Only.
+22:53:05 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+22:53:05 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+22:53:05 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+22:53:05 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:05 [信息] Listening on /0.0.0.0:25577
+22:53:46 [信息] Closing listener [id: 0x108a35a1, L:/[0:0:0:0:0:0:0:0]:25577]
+22:53:46 [信息] Closing pending connections
+22:53:46 [信息] Disconnecting 0 connections
+22:53:46 [信息] Saving reconnect locations
+22:53:46 [信息] Disabling plugins
+22:53:46 [信息] [MQEasy] Disabling Plugin...
+22:53:46 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-51870-1776091985237-0:1) is shutting down
+22:53:46 [信息] socketQueue interrupted - stopping
+22:53:46 [信息] Could not accept connection during shutdown  : null (null)
+22:53:46 [信息] Connector tcp://localhost:61616 stopped
+22:53:46 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+22:53:46 [信息] Stopping async queue tasks
+22:53:46 [信息] Stopping async topic tasks
+22:53:46 [信息] Stopped KahaDB
+22:53:46 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-51870-1776091985237-0:1) uptime 41.450 seconds
+22:53:46 [信息] [MQEasy] Disable Complete!
+22:53:46 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-51870-1776091985237-0:1) is shutdown
+22:53:46 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:53:46 [信息] [MQEasy] MQEasy Disable Complete!
+22:53:46 [信息] [MQEasy] Version:2.0.1
+22:53:46 [信息] [MQEasy] Authors:jingwenMC
+22:53:46 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:53:46 [信息] [MQEasy] Running on BungeeCord
+22:53:46 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:53:46 [信息] [CommandBridge] §a[CommandBridge]Disable PluginMessage mode.
+22:53:46 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+22:53:46 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+22:53:46 [信息] Closing IO threads
+22:53:51 [信息] Using standard Java JCE cipher.
+22:53:51 [信息] Using standard Java compressor.
+22:53:51 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+22:53:51 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+22:53:51 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+22:53:51 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:53:51 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:53:51 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:53:51 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:53:51 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:53:51 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:53:51 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:51 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:51 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+22:53:51 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:51 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:51 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:51 [信息] [MQEasy] Loading Configuration...
+22:53:51 [信息] [MQEasy] Launching broker service...
+22:53:51 [警告] Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 128 mb - resetting to 70% of maximum available: 89
+22:53:51 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+22:53:52 [信息] KahaDB is version 7
+22:53:52 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+22:53:52 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-52006-1776092032050-0:1) is starting
+22:53:52 [信息] Listening for connections at: tcp://localhost:61616
+22:53:52 [信息] Connector tcp://localhost:61616 started
+22:53:52 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-52006-1776092032050-0:1) started
+22:53:52 [信息] For help or more information please see: http://activemq.apache.org
+22:53:52 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 32228 mb of usable space. - resetting to maximum available disk space: 32228 mb
+22:53:52 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 32228 mb of usable space. - resetting to maximum available disk space: 32228 mb
+22:53:52 [信息] [MQEasy] Connecting to broker service...
+22:53:52 [信息] [MQEasy] Listener is now OK.
+22:53:52 [信息] [MQEasy] Finalizing...
+22:53:52 [信息] [MQEasy] Load Complete!
+22:53:52 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:53:52 [信息] [MQEasy] MQEasy Load Complete!
+22:53:52 [信息] [MQEasy] Version:2.0.1
+22:53:52 [信息] [MQEasy] Authors:jingwenMC
+22:53:52 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:53:52 [信息] [MQEasy] Running on BungeeCord
+22:53:52 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:53:52 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+22:53:52 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [警告] Forced host server pvp is not defined
+22:53:52 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+22:53:52 [信息] [CommandBridge] §a[CommandBridge]Using PluginMessage mode - Listen Only.
+22:53:52 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+22:53:52 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+22:53:52 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+22:53:52 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:53:52 [信息] Listening on /0.0.0.0:25577
+22:54:19 [信息] [/127.0.0.1:52084] <-> InitialHandler has pinged
+22:54:19 [信息] [/127.0.0.1:52085] <-> InitialHandler has connected
+22:54:49 [警告] [md_5,/127.0.0.1:52085] <-> InitialHandler - read timed out
+22:58:20 [信息] [md_5,/127.0.0.1:52926] <-> InitialHandler has connected
+22:58:35 [信息] Closing listener [id: 0x1c1332dc, L:/[0:0:0:0:0:0:0:0]:25577]
+22:58:35 [信息] Closing pending connections
+22:58:35 [信息] Disconnecting 0 connections
+22:58:36 [信息] Saving reconnect locations
+22:58:36 [信息] Disabling plugins
+22:58:36 [信息] [MQEasy] Disabling Plugin...
+22:58:36 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-52006-1776092032050-0:1) is shutting down
+22:58:36 [信息] Connector tcp://localhost:61616 stopped
+22:58:36 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+22:58:36 [信息] Stopping async queue tasks
+22:58:36 [信息] Stopping async topic tasks
+22:58:36 [信息] Stopped KahaDB
+22:58:36 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-52006-1776092032050-0:1) uptime 4 minutes
+22:58:36 [信息] [MQEasy] Disable Complete!
+22:58:36 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-52006-1776092032050-0:1) is shutdown
+22:58:36 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:58:36 [信息] [MQEasy] MQEasy Disable Complete!
+22:58:36 [信息] [MQEasy] Version:2.0.1
+22:58:36 [信息] [MQEasy] Authors:jingwenMC
+22:58:36 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:58:36 [信息] [MQEasy] Running on BungeeCord
+22:58:36 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+22:58:36 [信息] [CommandBridge] §a[CommandBridge]Disable PluginMessage mode.
+22:58:36 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+22:58:36 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+22:58:36 [信息] Closing IO threads
+22:59:13 [信息] Using standard Java JCE cipher.
+22:59:13 [信息] Using standard Java compressor.
+22:59:13 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+22:59:13 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+22:59:13 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+22:59:13 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:59:13 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:59:13 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:59:13 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:59:13 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:59:13 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:59:13 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+22:59:13 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] [MQEasy] Loading Configuration...
+22:59:13 [信息] [MQEasy] Launching broker service...
+22:59:13 [警告] Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 128 mb - resetting to 70% of maximum available: 89
+22:59:13 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+22:59:13 [信息] KahaDB is version 7
+22:59:13 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+22:59:13 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-53232-1776092353563-0:1) is starting
+22:59:13 [信息] Listening for connections at: tcp://localhost:61616
+22:59:13 [信息] Connector tcp://localhost:61616 started
+22:59:13 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-53232-1776092353563-0:1) started
+22:59:13 [信息] For help or more information please see: http://activemq.apache.org
+22:59:13 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 31265 mb of usable space. - resetting to maximum available disk space: 31265 mb
+22:59:13 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 31265 mb of usable space. - resetting to maximum available disk space: 31265 mb
+22:59:13 [信息] [MQEasy] Connecting to broker service...
+22:59:13 [信息] [MQEasy] Listener is now OK.
+22:59:13 [信息] [MQEasy] Finalizing...
+22:59:13 [信息] [MQEasy] Load Complete!
+22:59:13 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:59:13 [信息] [MQEasy] MQEasy Load Complete!
+22:59:13 [信息] [MQEasy] Version:2.0.1
+22:59:13 [信息] [MQEasy] Authors:jingwenMC
+22:59:13 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+22:59:13 [信息] [MQEasy] Running on BungeeCord
+22:59:13 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+22:59:13 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+22:59:13 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [警告] Forced host server pvp is not defined
+22:59:13 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+22:59:13 [信息] [CommandBridge] §a[CommandBridge]Using PluginMessage mode - Listen Only.
+22:59:13 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+22:59:13 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+22:59:13 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+22:59:13 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+22:59:13 [信息] Listening on /0.0.0.0:25577
+22:59:27 [信息] [/127.0.0.1:53304] <-> InitialHandler has connected
+22:59:27 [信息] [md_5] <-> ServerConnector [lobby] has connected
+22:59:57 [信息] [md_5] disconnected with: §f§4Login timeout exceeded, you have been kicked from the server, please try again!
+22:59:57 [信息] [md_5] -> UpstreamBridge has disconnected
+22:59:57 [信息] [md_5] <-> DownstreamBridge <-> [lobby] has disconnected
+23:00:27 [信息] [md_5,/127.0.0.1:53519] <-> InitialHandler has connected
+23:00:27 [信息] [md_5] <-> ServerConnector [lobby] has connected
+23:00:57 [信息] [md_5] disconnected with: §f§4Login timeout exceeded, you have been kicked from the server, please try again!
+23:00:57 [信息] [md_5] -> UpstreamBridge has disconnected
+23:00:57 [信息] [md_5] <-> DownstreamBridge <-> [lobby] has disconnected
+23:00:59 [信息] [md_5,/127.0.0.1:53584] <-> InitialHandler has connected
+23:00:59 [信息] [md_5] <-> ServerConnector [lobby] has connected
+23:01:30 [信息] [md_5] disconnected with: §f§4Login timeout exceeded, you have been kicked from the server, please try again!
+23:01:30 [信息] [md_5] -> UpstreamBridge has disconnected
+23:01:30 [信息] [md_5] <-> DownstreamBridge <-> [lobby] has disconnected
+23:03:39 [信息] Closing listener [id: 0x254e6361, L:/[0:0:0:0:0:0:0:0]:25577]
+23:03:39 [信息] Closing pending connections
+23:03:39 [信息] Disconnecting 0 connections
+23:03:39 [信息] Saving reconnect locations
+23:03:39 [信息] Disabling plugins
+23:03:39 [信息] [MQEasy] Disabling Plugin...
+23:03:39 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-53232-1776092353563-0:1) is shutting down
+23:03:39 [信息] Connector tcp://localhost:61616 stopped
+23:03:39 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+23:03:39 [信息] Stopping async queue tasks
+23:03:39 [信息] Stopping async topic tasks
+23:03:39 [信息] Stopped KahaDB
+23:03:39 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-53232-1776092353563-0:1) uptime 4 minutes
+23:03:39 [信息] [MQEasy] Disable Complete!
+23:03:39 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-53232-1776092353563-0:1) is shutdown
+23:03:40 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+23:03:40 [信息] [MQEasy] MQEasy Disable Complete!
+23:03:40 [信息] [MQEasy] Version:2.0.1
+23:03:40 [信息] [MQEasy] Authors:jingwenMC
+23:03:40 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+23:03:40 [信息] [MQEasy] Running on BungeeCord
+23:03:40 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+23:03:40 [信息] [CommandBridge] §a[CommandBridge]Disable PluginMessage mode.
+23:03:40 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+23:03:40 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+23:03:40 [信息] Closing IO threads
+23:03:42 [信息] Thank you and goodbye
+23:03:45 [信息] Using standard Java JCE cipher.
+23:03:45 [信息] Using standard Java compressor.
+23:03:45 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+23:03:45 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+23:03:45 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+23:03:45 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:03:45 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:03:45 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:03:45 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:03:45 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:03:45 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:03:45 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Loaded plugin CommandBridge version 1.2.1 by null
+23:03:45 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] [MQEasy] Loading Configuration...
+23:03:45 [信息] [MQEasy] Launching broker service...
+23:03:45 [警告] Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 128 mb - resetting to 70% of maximum available: 89
+23:03:45 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+23:03:45 [信息] KahaDB is version 7
+23:03:45 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+23:03:45 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54138-1776092625623-0:1) is starting
+23:03:45 [信息] Listening for connections at: tcp://localhost:61616
+23:03:45 [信息] Connector tcp://localhost:61616 started
+23:03:45 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54138-1776092625623-0:1) started
+23:03:45 [信息] For help or more information please see: http://activemq.apache.org
+23:03:45 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 34574 mb of usable space. - resetting to maximum available disk space: 34574 mb
+23:03:45 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 34574 mb of usable space. - resetting to maximum available disk space: 34574 mb
+23:03:45 [信息] [MQEasy] Connecting to broker service...
+23:03:45 [信息] [MQEasy] Listener is now OK.
+23:03:45 [信息] [MQEasy] Finalizing...
+23:03:45 [信息] [MQEasy] Load Complete!
+23:03:45 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+23:03:45 [信息] [MQEasy] MQEasy Load Complete!
+23:03:45 [信息] [MQEasy] Version:2.0.1
+23:03:45 [信息] [MQEasy] Authors:jingwenMC
+23:03:45 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+23:03:45 [信息] [MQEasy] Running on BungeeCord
+23:03:45 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+23:03:45 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+23:03:45 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [警告] Forced host server pvp is not defined
+23:03:45 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+23:03:45 [信息] [MQEasy] +++++++++++++++[MQEasy-New-Plugin]+++++++++++++++
+23:03:45 [信息] [MQEasy] Name:CommandBridge
+23:03:45 [信息] [MQEasy] Authors:null 
+23:03:45 [信息] [MQEasy] Version:1.2.1
+23:03:45 [信息] [MQEasy] Website:www.jingwenmc.top
+23:03:45 [信息] [MQEasy] Description:Send bukkit command to bungee
+23:03:45 [信息] [MQEasy] +++++++++++++++[MQEasy-New-Plugin]+++++++++++++++
+23:03:45 [信息] [CommandBridge] §a[CommandBridge]Using MessageQueue mode.
+23:03:45 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+23:03:45 [信息] Enabled plugin CommandBridge version 1.2.1 by null
+23:03:45 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+23:03:45 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+23:03:45 [信息] Listening on /0.0.0.0:25577
+23:04:07 [信息] [/127.0.0.1:54186] <-> InitialHandler has connected
+23:04:07 [信息] [md_5] <-> ServerConnector [lobby] has connected
+23:05:01 [信息] [md_5] -> UpstreamBridge has disconnected
+23:05:01 [信息] [md_5] <-> DownstreamBridge <-> [lobby] has disconnected
+23:05:03 [信息] [md_5,/127.0.0.1:54388] <-> InitialHandler has connected
+23:05:03 [信息] [md_5] <-> ServerConnector [lobby] has connected
+23:05:10 [信息] [md_5] -> UpstreamBridge has disconnected
+23:05:10 [信息] [md_5] <-> DownstreamBridge <-> [lobby] has disconnected
+23:31:37 [信息] Closing listener [id: 0xfb0abdc8, L:/[0:0:0:0:0:0:0:0]:25577]
+23:31:37 [信息] Closing pending connections
+23:31:37 [信息] Disconnecting 0 connections
+23:31:38 [信息] Saving reconnect locations
+23:31:38 [信息] Disabling plugins
+23:31:38 [信息] [MQEasy] Disabling Plugin...
+23:31:38 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54138-1776092625623-0:1) is shutting down
+23:31:38 [信息] Connector tcp://localhost:61616 stopped
+23:31:38 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] stopped
+23:31:38 [信息] Stopping async queue tasks
+23:31:38 [信息] Stopping async topic tasks
+23:31:38 [信息] Stopped KahaDB
+23:31:38 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54138-1776092625623-0:1) uptime 27 minutes
+23:31:38 [信息] [MQEasy] Disable Complete!
+23:31:38 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54138-1776092625623-0:1) is shutdown
+23:31:38 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+23:31:38 [信息] [MQEasy] MQEasy Disable Complete!
+23:31:38 [信息] [MQEasy] Version:2.0.1
+23:31:38 [信息] [MQEasy] Authors:jingwenMC
+23:31:38 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+23:31:38 [信息] [MQEasy] Running on BungeeCord
+23:31:38 [信息] [MQEasy] +++++++++++++++[MQEasy-Disable-Complete]+++++++++++++++
+23:31:38 [信息] [CommandBridge] §a[CommandBridge]Disable MessageQueue mode.
+23:31:38 [信息] [CommandBridge] §a[CommandBridge]Shutting Down...
+23:31:38 [信息] [CommandBridge] §a[CommandBridge]Goodbye!
+23:31:38 [信息] Closing IO threads
+13:50:31 [信息] Using standard Java JCE cipher.
+13:50:31 [信息] Using standard Java compressor.
+13:50:31 [信息] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:aa5c89d:2062
+13:50:31 [信息] Not on Windows, attempting to use enhanced EpollEventLoop
+13:50:31 [警告] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+13:50:31 [信息] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+13:50:31 [信息] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+13:50:31 [信息] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+13:50:31 [信息] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+13:50:31 [信息] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+13:50:31 [信息] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:50:31 [信息] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Loaded plugin CommandBridge version 2.0.0-ALPHA by null
+13:50:31 [信息] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] [MQEasy] Loading Configuration...
+13:50:31 [信息] [MQEasy] Launching broker service...
+13:50:31 [警告] Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 128 mb - resetting to 70% of maximum available: 89
+13:50:31 [信息] Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB]
+13:50:31 [信息] KahaDB is version 7
+13:50:31 [信息] PListStore:[/Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/tmp_storage] started
+13:50:31 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54999-1776577831414-0:1) is starting
+13:50:31 [信息] Listening for connections at: tcp://localhost:61616
+13:50:31 [信息] Connector tcp://localhost:61616 started
+13:50:31 [信息] Apache ActiveMQ 5.16.5 (mqeasyemb, ID:HinorideMacBook-Air.local-54999-1776577831414-0:1) started
+13:50:31 [信息] For help or more information please see: http://activemq.apache.org
+13:50:31 [警告] Store limit is 102400 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb/KahaDB only has 20309 mb of usable space. - resetting to maximum available disk space: 20309 mb
+13:50:31 [警告] Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/hinori/Codes/Order_Of_The_Stone/BC/activemq-data/mqeasyemb only has 20308 mb of usable space. - resetting to maximum available disk space: 20308 mb
+13:50:31 [信息] [MQEasy] Connecting to broker service...
+13:50:31 [信息] [MQEasy] Listener is now OK.
+13:50:31 [信息] [MQEasy] Finalizing...
+13:50:31 [信息] [MQEasy] Load Complete!
+13:50:31 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+13:50:31 [信息] [MQEasy] MQEasy Load Complete!
+13:50:31 [信息] [MQEasy] Version:2.0.1
+13:50:31 [信息] [MQEasy] Authors:jingwenMC
+13:50:31 [信息] [MQEasy] Github:https://github.com/jingwenMC/MQEasy
+13:50:31 [信息] [MQEasy] Running on BungeeCord
+13:50:31 [信息] [MQEasy] +++++++++++++++[MQEasy-Load-Complete]+++++++++++++++
+13:50:31 [信息] Loaded plugin MQEasy version 2.0.1 by jingwenMC
+13:50:31 [信息] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [警告] Forced host server pvp is not defined
+13:50:31 [信息] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] [CommandBridge] §a[CommandBridge]Setting Up...
+13:50:31 [信息] [MQEasy] +++++++++++++++[MQEasy-New-Plugin]+++++++++++++++
+13:50:31 [信息] [MQEasy] Name:CommandBridge
+13:50:31 [信息] [MQEasy] Authors:null 
+13:50:31 [信息] [MQEasy] Version:2.0.0-ALPHA
+13:50:31 [信息] [MQEasy] Website:www.jingwenmc.top
+13:50:31 [信息] [MQEasy] Description:Send bukkit command to bungee
+13:50:31 [信息] [MQEasy] +++++++++++++++[MQEasy-New-Plugin]+++++++++++++++
+13:50:31 [信息] [CommandBridge] §a[CommandBridge]Using MessageQueue mode.
+13:50:31 [信息] [CommandBridge] §a[CommandBridge]Done! Plugin By: jingwenMC
+13:50:31 [信息] Enabled plugin CommandBridge version 2.0.0-ALPHA by null
+13:50:31 [信息] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Enabled plugin MQEasy version 2.0.1 by jingwenMC
+13:50:31 [信息] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:aa5c89d:2062 by SpigotMC
+13:50:31 [信息] Listening on /0.0.0.0:25577
+13:52:15 [信息] [/127.0.0.1:55236] <-> InitialHandler has pinged
+13:52:15 [信息] [/127.0.0.1:55239] <-> InitialHandler has connected
+13:52:15 [信息] [jingwenMC] <-> ServerConnector [lobby] has connected
+13:53:10 [信息] [jingwenMC] -> UpstreamBridge has disconnected
+13:53:10 [信息] [jingwenMC] <-> DownstreamBridge <-> [lobby] has disconnected
+18:12:17 [信息] Closing listener [id: 0xd9df95fc, L:/[0:0:0:0:0:0:0:0]:25577]
+18:12:18 [信息] [MQEasy] Disabling Plugin...
+18:12:18 [信息] [CommandBridge] §a[CommandBridge]Disable MessageQueue mode.

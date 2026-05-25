@@ -1,0 +1,7 @@
+services:
+  hell-city:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      GZCTF_FLAG: "flag{demo_flag}"

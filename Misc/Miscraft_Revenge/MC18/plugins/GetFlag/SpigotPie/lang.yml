@@ -1,0 +1,16 @@
+language_name: zh_CN
+loading: 正在加载 Spigot Pie 运行库...
+load_complete: Spigot Pie 加载完毕
+failed_to_load: Spigot Pie 加载失败.
+package_conflict: 可能潜在的包名冲突
+loading_instance: 正在加载受管理的实例...
+loading_instance_complete: 受管理的实例已加载完毕.
+check_cause: 查看'Caused by:'了解更多
+too_few_args: §c指令的参数不足！至少需要$1个参数！
+too_many_args: §c指令的参数过多！最多需要$1个参数！
+command_not_found: §c指令未找到！
+command_error: §c指令发生错误！请查看控制台！
+no_perm: §c权限不足!请联系管理员!
+command_fallback: §c子指令未找到!请检查输入项目是否正确!
+help_title: §b==========[子指令列表]==========
+help_content: §f   [$1] - $2

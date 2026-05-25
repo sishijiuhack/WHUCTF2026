@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  black-coffee:
+    build: .
+    container_name: black-coffee
+    ports:
+      - "18083:8083"
+    restart: always
+    environment:
+      - A1CTF_FLAG=VNCTF{test}
