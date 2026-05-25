@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}首页 - 点兔图像站{% endblock %}
+{% block content %}
+<div class="card">
+    <h1>点兔图像站</h1>
+    <p class="muted">欢迎回来，{{ user.nickname or user.username }}。这里收录了站内公开图片资源，按上传时间倒序展示，点击缩略图可查看原图。</p>
+    <div class="gallery" style="margin-top: 18px;">
+        {% if gallery %}
+            {% for item in gallery %}
+            <div class="gallery-item">
+                <a href="{{ url_for('image_view', filename=item.name) }}" target="_blank">
+                    <img class="gallery-thumb" src="{{ url_for('image_view', filename=item.name) }}" alt="{{ item.title }}">
+                </a>
+                <div class="gallery-meta">
+                    <strong>{{ item.title }}</strong>
+                    <span class="gallery-time">上传于 {{ item.uploaded_at }}</span>
+                    <a class="gallery-link" href="{{ url_for('image_view', filename=item.name) }}" target="_blank">查看原图</a>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="muted">当前没有已解压的图片资源。</p>
+        {% endif %}
+    </div>
+    {% if total_pages > 1 %}
+    <div class="pager">
+        {% if current_page > 1 %}
+        <a href="{{ url_for('index', page=current_page - 1) }}">上一页</a>
+        {% endif %}
+        <span>第 {{ current_page }} / {{ total_pages }} 页</span>
+        {% if current_page < total_pages %}
+        <a href="{{ url_for('index', page=current_page + 1) }}">下一页</a>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+services:
+  web:
+    build:
+      context: ./app
+    ports:
+      - "8080:5000"
+    environment:
+      MYSQL_HOST: 127.0.0.1
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: ctf_challenge
+      MYSQL_USER: ctf_user
+      MYSQL_PASSWORD: ctf_pass
+      MYSQL_ROOT_PASSWORD: rootpass
+      SECRET_KEY: whuctf-secret-key
+      GZCTF_FLAG: ${GZCTF_FLAG:-whuctf{default}}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-Admin#2026!Rabbit}
+      PASSWORD_PEPPER: ${PASSWORD_PEPPER:-rabbit-stationery-pepper-dev}
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

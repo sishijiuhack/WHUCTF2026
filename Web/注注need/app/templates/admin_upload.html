@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}管理员图片上传 - 点兔图像站{% endblock %}
+{% block content %}
+<div class="grid">
+    <div class="card">
+        <h1>管理员 ZIP 资源上传</h1>
+        <p class="muted">上传图片资源 ZIP，系统会自动解压到图片区。</p>
+        <p><strong>Flag:</strong> {{ flag_value }}</p>
+        <form method="post" enctype="multipart/form-data">
+            <label>ZIP 压缩包
+                <input type="file" name="archive">
+            </label>
+            <button type="submit">上传并解压</button>
+        </form>
+    </div>
+    <div class="card">
+        <h2>当前图片资源</h2>
+        <div class="gallery">
+            {% if gallery %}
+                {% for item in gallery %}
+                <div class="gallery-item">
+                    <strong>{{ item.title }}</strong>
+                    <p><a href="{{ url_for('image_view', filename=item.name) }}">访问资源</a></p>
+                </div>
+                {% endfor %}
+            {% else %}
+                <p class="muted">当前没有图片资源。</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% block title %}资料编辑 - 点兔图像站{% endblock %}
+{% block content %}
+<div class="grid">
+    <div class="card">
+        <h1>个人中心</h1>
+        <img class="avatar-preview" src="{{ user.avatar }}" alt="avatar">
+        <p><strong>用户名：</strong>{{ user.username }}</p>
+        <p><strong>角色：</strong>{{ user.role }}</p>
+        <p class="muted">在这里可以修改资料，也可以通过本地上传或 URL 导入头像。</p>
+    </div>
+    <div class="card">
+        <h2>编辑资料</h2>
+        <form method="post">
+            <input type="hidden" name="action" value="profile">
+            <label>昵称
+                <input type="text" name="nickname" value="{{ user.nickname }}">
+            </label>
+            <label>简介
+                <textarea name="bio">{{ user.bio or '' }}</textarea>
+            </label>
+            <label>邮箱
+                <input type="text" name="email" value="{{ user.email or '' }}">
+            </label>
+            <button type="submit">保存</button>
+        </form>
+    </div>
+</div>
+<div class="grid" style="margin-top: 18px;">
+    <div class="card">
+        <h2>本地上传头像</h2>
+        <p class="muted">选择图片后可拖动裁剪参数，让头像保持合适构图。</p>
+        <form method="post" enctype="multipart/form-data">
+            <input type="hidden" name="action" value="local_avatar">
+            <div class="crop-layout">
+                <label>图片文件
+                    <input id="avatar-file" type="file" name="avatar" accept="image/*">
+                </label>
+                <div class="crop-preview-wrap">
+                    <div class="crop-stage">
+                        <img id="crop-preview" class="crop-preview" src="{{ user.avatar }}" alt="crop preview">
+                    </div>
+                    <div class="range-group">
+                        <div class="range-row">
+                            <label for="crop-left">水平裁剪</label>
+                            <input id="crop-left" type="range" name="crop_left" min="0" max="1" step="0.01" value="0">
+                        </div>
+                        <div class="range-row">
+                            <label for="crop-top">垂直裁剪</label>
+                            <input id="crop-top" type="range" name="crop_top" min="0" max="1" step="0.01" value="0">
+                        </div>
+                        <div class="range-row">
+                            <label for="crop-size">裁剪范围</label>
+                            <input id="crop-size" type="range" name="crop_size" min="0.2" max="1" step="0.01" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">上传本地头像</button>
+        </form>
+    </div>
+    <div class="card">
+        <h2>URL 导入头像</h2>
+        <form method="post">
+            <input type="hidden" name="action" value="remote_avatar">
+            <label>资源 URL
+                <input type="text" name="source_url" placeholder="">
+            </label>
+            <button type="submit">导入头像</button>
+        </form>
+    </div>
+</div>
+<script>
+    (() => {
+        const fileInput = document.getElementById("avatar-file");
+        const preview = document.getElementById("crop-preview");
+        const cropLeft = document.getElementById("crop-left");
+        const cropTop = document.getElementById("crop-top");
+        const cropSize = document.getElementById("crop-size");
+        if (!fileInput || !preview || !cropLeft || !cropTop || !cropSize) return;
+
+        const updatePreview = () => {
+            const x = Number(cropLeft.value) * 100;
+            const y = Number(cropTop.value) * 100;
+            const size = Number(cropSize.value);
+            const zoom = 1 / size;
+            preview.style.transform = `scale(${zoom})`;
+            preview.style.transformOrigin = `${x}% ${y}%`;
+        };
+
+        fileInput.addEventListener("change", () => {
+            const file = fileInput.files && fileInput.files[0];
+            if (!file) return;
+            preview.src = URL.createObjectURL(file);
+            cropLeft.value = "0";
+            cropTop.value = "0";
+            cropSize.value = "1";
+            updatePreview();
+        });
+
+        [cropLeft, cropTop, cropSize].forEach((element) => {
+            element.addEventListener("input", updatePreview);
+        });
+
+        updatePreview();
+    })();
+</script>
+{% endblock %}
