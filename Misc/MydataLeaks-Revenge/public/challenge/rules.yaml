@@ -1,0 +1,41 @@
+# 数据清洗与脱敏规则配置
+
+field_mapping:
+  sys_a:
+    student_id: id
+    name: name
+    phone: phone
+    email: email
+  sys_b:
+    sid: id
+    fullname: name
+    idcard: idcard
+    password: password
+  sys_c:
+    stu_id: id
+    stu_name: name
+    contact: phone
+    id_number: idcard
+
+desensitization:
+  name:
+    method: sha1
+    description: "姓名使用 SHA1 哈希"
+  phone:
+    method: mask
+    pattern: "keep_3_4"
+    description: "保留前3后4位"
+  idcard:
+    method: mask
+    pattern: "keep_6_4"
+    description: "保留前6后4位"
+  password:
+    method: md5
+    description: "密码使用 MD5 哈希"
+  email:
+    method: domain_only
+    description: "仅保留域名部分"
+
+deduplication:
+  primary_key: id
+  strategy: keep_first

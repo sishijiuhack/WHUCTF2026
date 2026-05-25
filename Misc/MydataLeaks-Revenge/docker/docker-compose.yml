@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  mydataleak-revenge:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      GZCTF_FLAG: "flag{etl_retry_poisoning_leaks_shards}"
+      APP_PORT: "8000"

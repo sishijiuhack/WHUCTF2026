@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMail Pro</title>
+    <style>
+        :root{--bg:#f1f3f4;--line:#dadce0;--panel:#fff;--text:#202124;--muted:#5f6368;--blue:#1a73e8}
+        *{box-sizing:border-box} body{margin:0;font-family:Inter,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+        .topbar{height:56px;background:var(--panel);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+        .brand{font-weight:700}.user{font-size:13px;color:var(--muted)} .user a{color:var(--blue);text-decoration:none}
+        .layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 56px)}
+        .sidebar{background:#fff;border-right:1px solid var(--line);padding:14px 10px}.compose{display:block;background:#e8f0fe;color:#174ea6;text-decoration:none;padding:10px 14px;border-radius:16px;font-weight:600;margin-bottom:12px}
+        .menu a{display:block;padding:8px 10px;border-radius:18px;color:#3c4043;text-decoration:none;font-size:14px}.menu a.active,.menu a:hover{background:#fce8e6;color:#a50e0e}
+        .badge{display:inline-block;background:#d93025;color:#fff;border-radius:10px;font-size:11px;padding:1px 6px;margin-left:6px;vertical-align:middle}
+        .contacts{margin-top:14px;font-size:12px;color:var(--muted)} .contact{margin-top:7px;font-size:13px;color:#3c4043}
+        .main{padding:18px}.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px}
+        h2{margin:0 0 12px} .field{margin-bottom:12px} label{display:block;margin-bottom:6px;font-size:13px}
+        .input{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px}.input:focus{outline:none;border-color:#8ab4f8;box-shadow:0 0 0 2px rgba(26,115,232,.15)}
+        textarea.input{min-height:220px;resize:vertical}.btn{border:0;background:var(--blue);color:#fff;border-radius:18px;padding:9px 16px;cursor:pointer}
+        .btn-alt{background:#fff;color:#174ea6;border:1px solid #aecbfa}
+        .msg{padding:10px 12px;border-radius:8px;margin-bottom:10px;font-size:14px}.ok{background:#eef7ff;color:#174ea6;border:1px solid #d2e3fc}.err{background:#fce8e6;color:#a50e0e;border:1px solid #f6aea9}
+        table{width:100%;border-collapse:collapse} th,td{padding:10px;border-bottom:1px solid #eee;text-align:left;font-size:14px} th{color:var(--muted);font-weight:600}
+        .actions form{display:inline}
+        @media(max-width:920px){.layout{grid-template-columns:1fr}.sidebar{display:none}.main{padding:10px}}
+    </style>
+</head>
+<body>
+<header class="topbar">
+    <div class="brand">GMail Pro</div>
+    <div class="user">
+        {% if session.username %}
+            {{ session.username }}{% if me %} ({{ me }}){% endif %} · <a href="{{ url_for('logout') }}">退出</a>
+        {% else %}
+            <a href="{{ url_for('login') }}">登录</a>
+        {% endif %}
+    </div>
+</header>
+<div class="layout">
+    <aside class="sidebar">
+        <a class="compose" href="{{ url_for('send_mail') }}">✉ 写邮件</a>
+        <nav class="menu">
+            <a class="{% if box=='inbox' %}active{% endif %}" href="{{ url_for('inbox') }}">收件箱<span class="badge" id="inbox-badge" style="display:none"></span></a>
+            <a class="{% if box=='sent' %}active{% endif %}" href="{{ url_for('sent_box') }}">已发邮件</a>
+            <a class="{% if box=='drafts' %}active{% endif %}" href="{{ url_for('drafts_box') }}">草稿</a>
+            <a class="{% if box=='trash' %}active{% endif %}" href="{{ url_for('trash_box') }}">已删除</a>
+            <a class="{% if box=='spam' %}active{% endif %}" href="{{ url_for('spam_box') }}">垃圾邮件</a>
+        </nav>
+        <div class="contacts">联系人
+            <div class="contact">gabefkingnewell@gmail.com</div>
+            <div class="contact">sam.carter@outlook.com</div>
+            <div class="contact">jessica.li@proton.me</div>
+        </div>
+    </aside>
+    <main class="main"><section class="card">{% block content %}{% endblock %}</section></main>
+</div>
+<script>
+{% if session.username %}
+(function(){
+  var b=document.getElementById('inbox-badge');
+  function check(){fetch('/api/inbox_count').then(function(r){return r.json()}).then(function(d){if(d.count>0){b.textContent=d.count;b.style.display=''}else{b.style.display='none'}})}
+  check();setInterval(check,15000);
+})();
+{% endif %}
+</script>
+</body>
+</html>

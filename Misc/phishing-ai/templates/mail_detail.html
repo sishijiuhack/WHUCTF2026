@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>邮件详情</h2>
+<div class="field"><label>发件人</label><input class="input" value="{{ mail.sender if mail.sender else me }}" readonly></div>
+<div class="field"><label>收件人</label><input class="input" value="{{ mail.recipient }}" readonly></div>
+<div class="field"><label>主题</label><input class="input" value="{{ mail.subject }}" readonly></div>
+<div class="field"><label>时间</label><input class="input" id="ts" value="{{ mail.timestamp }}" readonly></div>
+<div class="field"><label>正文</label><textarea class="input" readonly>{{ mail.body }}</textarea></div>
+<div class="actions">
+  <a class="btn btn-alt" href="{{ back_url }}">返回列表</a>
+</div>
+<script>
+var t=document.getElementById('ts');
+t.value=new Date(parseInt(t.value)*1000).toLocaleString('zh-CN');
+</script>
+{% endblock %}

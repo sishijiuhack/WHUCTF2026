@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>新建邮件</h2>
+{% if error %}<div class="msg err">{{ error }}</div>{% endif %}
+{% if success %}
+<div class="msg ok">
+  <strong>投递状态：</strong>{{ success }}
+  {% if ai_reason %}<div><strong>回执：</strong>{{ ai_reason }}</div>{% endif %}
+  {% if target_url %}<div><strong>记录链接：</strong>{{ target_url }}</div>{% endif %}
+</div>
+{% endif %}
+<div id="loading" style="display:none" class="msg ok">⏳ 正在处理邮件，请稍候（AI 分析中）...</div>
+<form method="POST" action="{{ url_for('send_mail') }}" id="mailform">
+  <div class="field"><label>收件人</label><input class="input" name="recipient" value="{{ (form_data.recipient if form_data else recipient_default) }}" required /></div>
+  <div class="field"><label>主题</label><input class="input" name="subject" value="{{ (form_data.subject if form_data else '') }}" required /></div>
+  <div class="field"><label>正文</label><textarea class="input" name="body" required>{{ (form_data.body if form_data else '') }}</textarea></div>
+  <button class="btn" type="submit" name="action" value="send" id="sendbtn">发送</button>
+  <button class="btn btn-alt" type="submit" name="action" value="save_draft">保存草稿</button>
+</form>
+<script>
+document.getElementById('sendbtn').addEventListener('click',function(){
+  setTimeout(function(){
+    document.getElementById('loading').style.display='';
+    document.getElementById('mailform').style.opacity='0.5';
+  },100);
+});
+</script>
+{% endblock %}
