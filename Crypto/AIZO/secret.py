@@ -1,0 +1,1 @@
+flag = b"WHUCTF{LUV-ME-HATE-ME-KILL-ME-https://www.bilibili.com/BV1pDidBpEek}"
